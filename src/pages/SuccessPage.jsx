@@ -44,7 +44,7 @@ export default function SuccessPage({ request, onNewRequest, onViewRequests }) {
           <div className="flex gap-3 justify-center flex-wrap">
             <button
               onClick={onNewRequest}
-              className="bg-blue-700 text-white px-6 py-2.5 rounded-lg font-medium hover:bg-blue-800 transition-colors"
+              className="bg-yellow-400 text-gray-900 px-6 py-2.5 rounded-lg font-medium hover:bg-yellow-500 transition-colors"
             >
               Submit Another
             </button>

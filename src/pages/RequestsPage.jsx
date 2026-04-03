@@ -32,7 +32,7 @@ export default function RequestsPage({ requests, onNavigate }) {
             </p>
             <button
               onClick={() => onNavigate('submit')}
-              className="bg-blue-700 text-white px-6 py-2.5 rounded-lg font-medium hover:bg-blue-800 transition-colors"
+              className="bg-yellow-400 text-gray-900 px-6 py-2.5 rounded-lg font-medium hover:bg-yellow-500 transition-colors"
             >
               Submit a Request
             </button>
@@ -52,7 +52,7 @@ export default function RequestsPage({ requests, onNavigate }) {
           </div>
           <button
             onClick={() => onNavigate('submit')}
-            className="bg-blue-700 text-white px-4 py-2 rounded-lg text-sm font-medium hover:bg-blue-800 transition-colors"
+            className="bg-yellow-400 text-gray-900 px-4 py-2 rounded-lg text-sm font-medium hover:bg-yellow-500 transition-colors"
           >
             + New Request
           </button>

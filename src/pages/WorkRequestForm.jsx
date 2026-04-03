@@ -261,7 +261,7 @@ export default function WorkRequestForm({ onSubmit }) {
             <button
               type="submit"
               disabled={submitting}
-              className="bg-blue-700 text-white px-8 py-2.5 rounded-lg font-semibold hover:bg-blue-800 transition-colors disabled:opacity-60 disabled:cursor-not-allowed flex items-center gap-2"
+              className="bg-yellow-400 text-gray-900 px-8 py-2.5 rounded-lg font-semibold hover:bg-yellow-500 transition-colors disabled:opacity-60 disabled:cursor-not-allowed flex items-center gap-2"
             >
               {submitting && (
                 <svg className="animate-spin w-4 h-4" fill="none" viewBox="0 0 24 24">
